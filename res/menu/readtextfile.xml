@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item
+           
+      	android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_edit"
+        android:title="Edit">
+       </item> 
+    
+    <item
+           
+      	android:id="@+id/pictureview"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_picture"
+        android:title="Picture">
+        
+        <menu>
+    
+   <item  android:id="@+id/fontSize"  
+         android:icon="@drawable/ic_action_sort_by_size"
+        android:title="Font Size"/>  
+    
+     <item  android:id="@+id/color"  
+     
+        android:title="Colors"/> 
+      
+    </menu>
+    
+       </item>   
+    
+   
+ 
+</menu>

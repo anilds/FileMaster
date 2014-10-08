@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+           
+      	android:id="@+id/searchview"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_search"
+        android:title="Search">
+       </item> 
+     
+ <item  
+           
+      	android:id="@+id/picture"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_picture"
+        android:title="Picture" >  
+<menu>
+    
+   <item  android:id="@+id/refresh"  
+         android:icon="@drawable/ic_action_refresh"
+        android:title="Refresh"/>  
+    
+     <item  android:id="@+id/theme"  
+       android:icon="@drawable/ic_action_collection"
+        android:title="Theme"/> 
+        
+     <item  
+        android:title="Display "/>  
+     
+    <item  android:id="@+id/grid"  
+           android:icon="@drawable/ic_action_view_as_grid"
+        android:title="Grid"/>  
+    
+    <item  android:id="@+id/list" 
+         android:icon="@drawable/ic_action_view_as_list"
+        android:title="List "/>  
+    
+    </menu>
+    
+ </item>
+
+    <item  
+           
+      	android:id="@+id/menu"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="Menu" >  
+<menu>
+    
+   <item  android:id="@+id/mount"  
+         android:icon="@drawable/ic_action_sd_storage"
+        android:title="Mount/Eject"/>  
+    
+     <item  android:id="@+id/filesystem"  
+       android:icon="@drawable/ic_action_collection"
+        android:title="FileSystem"/> 
+        
+     <item  android:id="@+id/about" 
+         android:icon="@drawable/ic_action_about"
+        android:title="About FM "/>  
+     
+    <item  android:id="@+id/help"  
+           android:icon="@drawable/ic_action_help"
+        android:title="Help"/>  
+    
+    <item  android:id="@+id/settings" 
+         android:icon="@drawable/ic_action_settings"
+        android:title="Settings "/>  
+        
+    
+    </menu>
+    
+ </item>
+     
+
+</menu>

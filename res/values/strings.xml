@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="open_using">Open Using</string>
+    
+    <string name="access_denied">Access Denied</string>
+	<string name="cant_open_dir">%1$s is a protected directory. You will require root access on your device to open and browse this directory</string>
+	
+
+</resources>

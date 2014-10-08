@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ <item
+           
+      	android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_edit"
+        android:title="Edit">
+       </item> 
+    
+    <item
+           
+      	android:id="@+id/overflowview"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="Picture">
+        
+        <menu>
+    
+   <item  android:id="@+id/newfile"  
+         android:icon="@drawable/add_doc_1"
+        android:title="Add File"/>  
+    
+     <item  android:id="@+id/open"  
+     
+        android:title="Open"/> 
+        
+      <item  android:id="@+id/save"  
+     	android:icon="@drawable/ic_action_save"
+        android:title="Save"/> 
+        <item  android:id="@+id/details"  
+     	android:icon="@drawable/ic_action_about"
+        android:title="Details"/> 
+      
+    </menu>
+    
+       </item>   
+    
+   
+ 
+</menu>

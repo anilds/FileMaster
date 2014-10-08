@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+     <ImageView
+           android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"  />
+ 
+    <!-- Main Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" 
+         android:textColor="#10bcc9" />
+ 
+    <!-- internal path-->
+    <TextView
+        android:id="@+id/internal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/thumbnail"
+         
+        android:textSize="@dimen/rating"
+         android:textColor="#10bcc9"
+        android:textStyle="bold" />
+     
+    <!-- External path -->
+    <TextView
+        android:id="@+id/external"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+       
+        android:textSize="@dimen/rating" 
+         android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+    
+    
+  
+    
+	 <TextView
+        android:id="@+id/internaltotalspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+         android:layout_below="@id/external"
+        android:layout_marginRight="8dip"
+        android:textSize="@dimen/genre" 
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+	 
+	 <TextView
+        android:id="@+id/internalavailablespace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+       
+       android:layout_below="@id/external"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="#10bcc9"
+        android:textSize="@dimen/genre" 
+        android:textStyle="bold"
+      />
+		    
+     
+    <TextView
+        android:id="@+id/externaltotalspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+         android:layout_below="@id/external"
+        android:layout_marginRight="8dip"
+        android:textSize="@dimen/genre" 
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+	 
+	 <TextView
+        android:id="@+id/externalavailablespace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+       
+       android:layout_below="@id/external"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="#10bcc9"
+        android:textSize="@dimen/genre" 
+        android:textStyle="bold"
+      />
+		    
+ 
+    
+    
+
+</RelativeLayout>
